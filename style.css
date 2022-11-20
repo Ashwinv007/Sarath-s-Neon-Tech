@@ -1,0 +1,66 @@
+/* header{
+    background-image: url('assets/images/11_2.jpg');
+    height: 25em; */
+body{
+    background-color: black;
+    /* background-image: linear-gradient(to bottom right,black,#1060aa); */
+
+}
+
+#mainheading{
+    user-select: none;
+    color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size:10vw;
+    padding: 0.1em;
+    transition: 0.5s;
+}
+
+#mainheading:hover {
+    text-shadow: 0 1px 0 #808080, 0 2px 0 #808080,
+                 0 3px 0 #808080, 0 4px 0 #808080,
+                 0 5px 0 #808080, 0 6px 0 #808080,
+                 0 7px 0 #808080, 0 8px 0 #808080,
+                 0 9px 0 #808080, 0 10px 0 #808080,
+                 0 11px 0 #808080, 0 12px 0 #808080,
+                 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+#lvheading{
+    
+    margin-bottom:0.1em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #919090;
+    background-image: linear-gradient(to bottom right,#1060aa, black);
+    border-radius: 15px;
+}
+
+.carousel.inner{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#latestvideo{
+    padding-top:35%;
+    padding-bottom: 5%;
+    background-image: url("assets/images/13.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#award{
+    margin-top:5em;
+}
+
+
+footer{
+    background-color: lavender;
+    text-align: center;
+    margin-bottom: -1.1%;
+}
